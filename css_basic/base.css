@@ -1,0 +1,24 @@
+/* base.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Make the logo bigger and bold */
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Optional: make links blue */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Optional: give headers some spacing */
+h1, h2, h3 {
+    margin: 0.5em 0;
+}
