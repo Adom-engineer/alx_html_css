@@ -3,8 +3,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #yourFigmaColor; 
-    height: yourFigmaHeight; 
+    background-color: #1E1E2F; /* Updated with your chosen color */
+    height: 80px; /* Adjust height as needed */
 }
 
 nav ul {
@@ -16,7 +16,7 @@ nav ul {
 nav a {
     text-transform: uppercase;
     text-decoration: none;
-    color: #yourFigmaTextColor;
+    color: #FFFFFF; /* Adjust based on Figma */
     font-weight: bold;
 }
 
@@ -25,8 +25,12 @@ section:first-of-type {
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    background-color: ##1E1E2F; 
+    background-color: #1E1E2F; /* Fixed double hash issue */
 }
 
 h1 {
-    font
+    font-size: 36px; /* Adjust according to Figma */
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF; /* Ensure proper contrast */
+}
