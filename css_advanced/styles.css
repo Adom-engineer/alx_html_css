@@ -89,3 +89,60 @@ h1 {
     font-size: 14px;
     color: #666666;
 }
+
+.membership-section {
+    background-color: #222222; /* Adjust to Figma's dark background */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.membership-section h2 {
+    font-size: 32px; /* Match Figma size */
+    font-weight: bold;
+    color: #6C63FF; /* Purple color from Figma */
+    margin-bottom: 20px;
+}
+
+.membership-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px;
+    text-align: center;
+}
+
+.feature-box {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.feature-box img {
+    width: 50px; /* Match Figma */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.feature-box h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.feature-box p {
+    font-size: 14px;
+    color: #CCCCCC;
+}
+
+.register-button {
+    background-color: #6C63FF; /* Purple button */
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+}
+
