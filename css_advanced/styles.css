@@ -4,7 +4,7 @@ header {
     align-items: center;
     padding: 20px;
     background-color: #1E1E2F; /* Updated with your chosen color */
-    height: 80px; /* Adjust height as needed */
+    height: 80px; /* Adjust according to your Figma */
 }
 
 nav ul {
@@ -35,35 +35,13 @@ h1 {
     color: #FFFFFF; /* Ensure proper contrast */
 }
 
-section.quote {
-    background-color: #F5F5FA; /* Replace with Figma's exact background color */
+.quote-section {
+    background-color: #6C63FF; /* Adjust based on Figma color */
     padding: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
-
-blockquote {
-    font-size: 24px; /* Adjust based on Figma */
-    font-style: italic;
-    color: #333333; /* Replace with Figma’s text color */
-    max-width: 600px;
-    line-height: 1.5;
-}
-
-.quote h3 {
-    font-size: 18px; /* Ensure text size matches Figma */
-    font-weight: bold;
-    color: #111111; /* Replace with correct color */
-}
-.quote p {
-    font-size: 14px;
-    color: #666666;
-}
-
-.quote img {
-    width: 150px; /* Adjust according to Figma */
-    height: auto;
-    border-radius: 50%; /* If the image should be circular */
-    object-fit: cover;
-}
+        flex-direction: column;
+        text-align: center;
+    }
+    
