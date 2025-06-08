@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #yourFigmaColor; 
+    height: yourFigmaHeight; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #yourFigmaTextColor;
+    font-weight: bold;
+}
+
+section:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: ##1E1E2F; 
+}
+
+h1 {
+    font
