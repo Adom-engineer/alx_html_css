@@ -45,3 +45,47 @@ h1 {
         text-align: center;
     }
     
+    .videos-list {
+    background-color: #F9F9F9; /* Match Figma background */
+    padding: 40px;
+}
+
+.videos-list h2 {
+    font-size: 28px; /* Match Figma size */
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 videos in a row */
+    gap: 20px;
+}
+
+.video {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.video img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.video h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #111111;
+}
+
+.video p {
+    font-size: 14px;
+    color: #666666;
+}
