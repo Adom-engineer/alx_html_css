@@ -186,3 +186,38 @@ h1 {
     color: #666666;
     margin-top: 10px;
 }
+
+footer {
+    background-color: #222222; /* Match Figma background color */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-logo {
+    width: 150px; /* Adjust based on Figma */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-icons img {
+    width: 30px; /* Icon size based on Figma */
+    height: auto;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #FFFFFF; /* Match Figma text color */
+}
+
+.footer-copyright {
+    font-size: 12px;
+    color: #AAAAAA;
+    margin-top: 20px;
+}
