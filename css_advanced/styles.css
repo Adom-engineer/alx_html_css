@@ -34,3 +34,36 @@ h1 {
     text-transform: uppercase;
     color: #FFFFFF; /* Ensure proper contrast */
 }
+
+section.quote {
+    background-color: #F5F5FA; /* Replace with Figma's exact background color */
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+blockquote {
+    font-size: 24px; /* Adjust based on Figma */
+    font-style: italic;
+    color: #333333; /* Replace with Figma’s text color */
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+.quote h3 {
+    font-size: 18px; /* Ensure text size matches Figma */
+    font-weight: bold;
+    color: #111111; /* Replace with correct color */
+}
+.quote p {
+    font-size: 14px;
+    color: #666666;
+}
+
+.quote img {
+    width: 150px; /* Adjust according to Figma */
+    height: auto;
+    border-radius: 50%; /* If the image should be circular */
+    object-fit: cover;
+}
