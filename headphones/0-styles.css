@@ -1,0 +1,147 @@
+* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            line-height: 1.6;
+            color: #071629;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            height: 800px;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/images/headphones_hero_1.jpg');
+            background-size: cover; /* cover the entire section */
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            border: 1px solid #979797;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 37px 0;
+            height: 100px;
+            width: 100%;
+        }
+
+        .logo {
+            margin-left: 200px;
+        }
+
+        .logo img {
+            height: 32px;
+            width: 161px;
+        } 
+
+        .nav-menu {
+            display: flex;
+            gap: 41px;
+            margin-right: 199px;
+        }
+
+        .nav-link {
+            font-size: 12px;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 700;
+            line-height: 16px;
+            color: #ffffff;
+            text-decoration: none;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #ff6565;
+        }
+
+        /* Hero Content */
+        .hero-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero-title {
+            font-size: 32px;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 700;
+            line-height: 41px;
+            color: #ffffff;
+            margin-bottom: 20px;
+            max-width: 578px;
+        }
+
+        .hero-subtitle {
+            font-size: 16px;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 700;
+            line-height: 21px;
+            color: #ffffff;
+            margin-bottom: 35px;
+            max-width: 355px;
+        }
+
+        .cta-button {
+            background-color: #ff6565;
+            border: none;
+            border-radius: 22px;
+            padding: 13px 31px;
+            font-size: 14px;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 700;
+            line-height: 18px;
+            color: #ffffff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0px 2px 20px rgba(0,0,0,0.5);
+            margin-bottom: 35px;
+        }
+
+        .cta-button:hover {
+            background-color: #e55555;
+            transform: translateY(-2px);
+            box-shadow: 0px 4px 25px rgba(0,0,0,0.6);
+        }
+
+        .hero-description {
+            font-size: 16px;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 400;
+            line-height: 26px;
+            color: #ffffff;
+            max-width: 637px;
+            text-align: center;
+        }
+
+        /* What We Do Section */
+        .what-we-do {
+            padding: 110px 0 100px;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 32px;
+            font-family: 'Alexandria', sans-serif;
+            font-weight: 600;
+            line-height: 40px;
+            color: #071629;
+            margin-bottom: 37px;
+        }
