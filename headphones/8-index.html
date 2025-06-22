@@ -1,29 +1,33 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Headphones - Audio Experience</title>
-    <link rel="stylesheet" href="2-styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Headphones - Audio Experience</title>
+  <link rel="stylesheet" href="2-styles.css" />
 </head>
 <body>
-    <div class="container">
-        <!-- Hero Section -->
-        <section class="hero-section">
-            <header class="header">
-                <div class="logo">
-                    <img src="../assets/images/logo_headphones.png" alt="Headphones Logo" />
-                </div>
-                <nav class="nav-menu" role="navigation" aria-label="Main menu">
-                    <a href="#what-we-do" class="nav-link">what we do</a>
-                    <a href="#results" class="nav-link">our results</a>
-                    <a href="#contact" class="nav-link">contact us</a>
-                </nav>
-                !-- Hamburger icon -->
-  <div class="hamburger" id="hamburger">
-    &#9776; <!-- Unicode for hamburger icon -->
-  </div>
-            </header>
+  <div class="container">
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <header class="header">
+        <div class="logo">
+          <img src="../assets/images/logo_headphones.png" alt="Headphones Logo" />
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="nav-menu" id="nav-links" role="navigation" aria-label="Main menu">
+          <a href="#what-we-do" class="nav-link">what we do</a>
+          <a href="#results" class="nav-link">our results</a>
+          <a href="#contact" class="nav-link">contact us</a>
+        </nav>
+
+        <!-- ✅ Corrected Hamburger icon -->
+        <div class="hamburger" id="hamburger">
+          &#9776;
+        </div>
+      </header>
+
             
             <div class="hero-content">
                 <h1 class="hero-title">Lorem ipsum dolor set amet lorem ipsum</h1>
@@ -153,10 +157,10 @@
   </div>
 </footer>
 
-<!-- Now add the script -->
+<!-- ✅ Corrected script -->
 <script>
   const hamburger = document.getElementById('hamburger');
-  const nav = document.querySelector('.nav-links');
+  const nav = document.getElementById('nav-links'); // Changed to match your actual nav ID
 
   hamburger.addEventListener('click', () => {
     nav.classList.toggle('active');
